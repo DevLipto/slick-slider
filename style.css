@@ -1,0 +1,66 @@
+
+@media (max-width: 768px) {
+    img {
+      max-height: 200px; 
+    }
+  }
+  /* Media query for screens larger than 768px (e.g., tablets and desktops) */
+
+  @media (min-width: 769px) {
+    img {
+      max-height: 450px; 
+    }
+  }
+
+.imgclass img{
+
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+}
+h3, p{
+    text-align: center;
+    color: white;
+}
+
+.sl-wrapper-iteam1{
+    background-color: blue;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin: 0px 30px;
+}
+
+.sl-wrapper-iteam2{
+    background-color: blue;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin: 0px 30px;
+}
+
+.sl-wrapper-iteam3{
+    background-color: blue;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin: 0px 30px;
+}
+
+.slick-dots {
+    bottom: -45px;
+}
+
+.slick-dots li button {
+    font-size: 14px;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    background: #0000ff;
+}
+
